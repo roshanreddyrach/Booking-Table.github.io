@@ -1,0 +1,50 @@
+.about-section {
+	min-height: 400px;
+	margin: 2rem auto;
+}
+
+.about-content {
+	position: relative;
+}
+
+.about-section .description {
+	max-width: 350px;
+}
+
+.about-section .description h4 {
+	font-size: 56px;
+	line-height: 0.8;
+}
+
+.about-section .description h5 {
+	font-size: 32px;
+}
+
+.about-section img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 400px;
+}
+
+.about-section .about-img2 {
+	top: 100px;
+	right: 250px;
+}
+
+@media (max-width: 1024px) {
+	.about-section .description {
+		max-width: 250px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about-section .description {
+		max-width: 100%;
+	}
+
+	.about-section img {
+		position: static;
+		max-width: 100%;
+	}
+}
